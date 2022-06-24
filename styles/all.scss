@@ -29,10 +29,18 @@
     background-color: var(--bs-dark);
     z-index: 6;
 }  
+.p-text{
+    text-indent: 16px;
+}
 .text-unline{
     text-decoration: none;
 }
-
+//很奇怪的用法..目前找不到方式解決，先用白癡方法
+.box{
+    background-color:light;
+    width: 100%;
+    height: 50px;
+}
 /* 裁切圖片，讓圖片不會變形 */
 .object-fit-cover{
     object-fit: cover;
